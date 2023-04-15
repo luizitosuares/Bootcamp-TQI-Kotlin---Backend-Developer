@@ -7,3 +7,8 @@ O Bootcamp TQI Kotlin - Backend Developer é um programa gratuito para formaçã
 - Kotlin
 - SQL
 - Spring Framework
+
+
+## Documentação Oficial do Kotlin:
+
+https://kotlinlang.org/
