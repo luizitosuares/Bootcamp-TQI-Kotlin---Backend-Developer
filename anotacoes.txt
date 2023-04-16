@@ -1,0 +1,40 @@
+Funções - Parâmetros vararg - Flexibilidade de ter quantos valores precisar de determinado tipo passando apenas um parametro.
+Ele cria automaticamente um Array
+
+
+Variáveis var e val 
+
+Var é uma variável mutavel 
+
+Val é um valor imutável 
+
+
+Null Safety Nulidade
+
+Formas de declarar variáveis que aceitam valores nulos
+
+
+Generics - Classes Genéricas
+
+As classes genéricas em Kotlin são classes que permitem especificar um tipo de dado de forma genérica para ser usado em seus membros, em vez de definir um tipo de dado específico. Isso significa que uma classe genérica pode trabalhar com diferentes tipos de dados sem precisar reescrever o código para cada tipo de dado individualmente.
+
+Para definir uma classe genérica em Kotlin, é necessário adicionar um parâmetro de tipo (ou vários) entre os colchetes angulares "<>" após o nome da classe.
+
+
+Ao criar uma instância da classe genérica, o tipo de dado a ser usado é definido ao criar o objeto. Por exemplo, podemos criar um objeto "MinhaClasse" com o tipo de dado "String" da seguinte maneira:
+
+
+
+val minhaClasseInt = MinhaClasse<Int>(42)
+
+
+minhaClasseInt - novo objeto
+
+MinhaClasse - classe desse novo objeto
+
+
+
+Para definir uma função genérica em Kotlin, é necessário adicionar um parâmetro de tipo (ou vários) entre os colchetes angulares "<>" antes dos parâmetros da função
+
+fun <T> buscaValor(array: Array<T>, valor: T): Int 
+
