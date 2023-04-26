@@ -38,3 +38,6 @@ Para definir uma função genérica em Kotlin, é necessário adicionar um parâ
 
 fun <T> buscaValor(array: Array<T>, valor: T): Int 
 
+== Estrutura
+
+=== referencia
